@@ -1,0 +1,38 @@
+.banner {
+  min-height: 70vh;
+  background-image: linear-gradient(rgba(0, 32, 96, 0.6), rgba(0, 32, 96, 0.6)),
+    url("../../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner .container h1 {
+  color: #fff;
+  font-size: 70px;
+}
+
+.banner .container p {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.banner .container button {
+  background-color: #002060;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  margin-top: 30px;
+}
